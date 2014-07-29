@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		365DE5DE1965BAF7009EF89F /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 365DE5DD1965BAF7009EF89F /* QuartzCore.framework */; };
+		365DE5E0196B0EF6009EF89F /* ScrollContentContainer.m in Sources */ = {isa = PBXBuildFile; fileRef = 365DE5DF196B0EF6009EF89F /* ScrollContentContainer.m */; };
 		36AA1C8B1961C27B004FA64B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 36AA1C8A1961C27B004FA64B /* Foundation.framework */; };
 		36AA1C8D1961C27B004FA64B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 36AA1C8C1961C27B004FA64B /* CoreGraphics.framework */; };
 		36AA1C8F1961C27B004FA64B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 36AA1C8E1961C27B004FA64B /* UIKit.framework */; };
@@ -19,6 +21,10 @@
 		36AA1CA61961C27C004FA64B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 36AA1C8E1961C27B004FA64B /* UIKit.framework */; };
 		36AA1CAE1961C27C004FA64B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 36AA1CAC1961C27C004FA64B /* InfoPlist.strings */; };
 		36AA1CB01961C27C004FA64B /* EmbedScrollViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 36AA1CAF1961C27C004FA64B /* EmbedScrollViewTests.m */; };
+		36AA1CBE1961C6D2004FA64B /* EmbeddedScrollViewControllerDemo.m in Sources */ = {isa = PBXBuildFile; fileRef = 36AA1CBD1961C6D2004FA64B /* EmbeddedScrollViewControllerDemo.m */; };
+		36AA1CC11961CB26004FA64B /* SubviewOne.m in Sources */ = {isa = PBXBuildFile; fileRef = 36AA1CC01961CB26004FA64B /* SubviewOne.m */; };
+		36AA1CC41961D611004FA64B /* SubviewTwo.m in Sources */ = {isa = PBXBuildFile; fileRef = 36AA1CC31961D611004FA64B /* SubviewTwo.m */; };
+		36AA1CC71961DB35004FA64B /* SubviewThree.m in Sources */ = {isa = PBXBuildFile; fileRef = 36AA1CC61961DB35004FA64B /* SubviewThree.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,6 +38,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		365DE5DD1965BAF7009EF89F /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		365DE5DF196B0EF6009EF89F /* ScrollContentContainer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScrollContentContainer.m; sourceTree = "<group>"; };
+		365DE5E1196B0F1D009EF89F /* ScrollContentContainer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ScrollContentContainer.h; sourceTree = "<group>"; };
 		36AA1C871961C27B004FA64B /* EmbedScrollView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EmbedScrollView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		36AA1C8A1961C27B004FA64B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		36AA1C8C1961C27B004FA64B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -48,6 +57,14 @@
 		36AA1CAB1961C27C004FA64B /* EmbedScrollViewTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "EmbedScrollViewTests-Info.plist"; sourceTree = "<group>"; };
 		36AA1CAD1961C27C004FA64B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		36AA1CAF1961C27C004FA64B /* EmbedScrollViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EmbedScrollViewTests.m; sourceTree = "<group>"; };
+		36AA1CBC1961C6D2004FA64B /* EmbeddedScrollViewControllerDemo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EmbeddedScrollViewControllerDemo.h; path = ../EmbeddedScrollViewControllerDemo.h; sourceTree = "<group>"; };
+		36AA1CBD1961C6D2004FA64B /* EmbeddedScrollViewControllerDemo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = EmbeddedScrollViewControllerDemo.m; path = ../EmbeddedScrollViewControllerDemo.m; sourceTree = "<group>"; };
+		36AA1CBF1961CB26004FA64B /* SubviewOne.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SubviewOne.h; sourceTree = "<group>"; };
+		36AA1CC01961CB26004FA64B /* SubviewOne.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SubviewOne.m; sourceTree = "<group>"; };
+		36AA1CC21961D611004FA64B /* SubviewTwo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SubviewTwo.h; sourceTree = "<group>"; };
+		36AA1CC31961D611004FA64B /* SubviewTwo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SubviewTwo.m; sourceTree = "<group>"; };
+		36AA1CC51961DB35004FA64B /* SubviewThree.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SubviewThree.h; sourceTree = "<group>"; };
+		36AA1CC61961DB35004FA64B /* SubviewThree.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SubviewThree.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +72,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				365DE5DE1965BAF7009EF89F /* QuartzCore.framework in Frameworks */,
 				36AA1C8D1961C27B004FA64B /* CoreGraphics.framework in Frameworks */,
 				36AA1C8F1961C27B004FA64B /* UIKit.framework in Frameworks */,
 				36AA1C8B1961C27B004FA64B /* Foundation.framework in Frameworks */,
@@ -96,6 +114,7 @@
 		36AA1C891961C27B004FA64B /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				365DE5DD1965BAF7009EF89F /* QuartzCore.framework */,
 				36AA1C8A1961C27B004FA64B /* Foundation.framework */,
 				36AA1C8C1961C27B004FA64B /* CoreGraphics.framework */,
 				36AA1C8E1961C27B004FA64B /* UIKit.framework */,
@@ -109,6 +128,16 @@
 			children = (
 				36AA1C991961C27B004FA64B /* AppDelegate.h */,
 				36AA1C9A1961C27B004FA64B /* AppDelegate.m */,
+				36AA1CBC1961C6D2004FA64B /* EmbeddedScrollViewControllerDemo.h */,
+				36AA1CBD1961C6D2004FA64B /* EmbeddedScrollViewControllerDemo.m */,
+				365DE5E1196B0F1D009EF89F /* ScrollContentContainer.h */,
+				365DE5DF196B0EF6009EF89F /* ScrollContentContainer.m */,
+				36AA1CBF1961CB26004FA64B /* SubviewOne.h */,
+				36AA1CC01961CB26004FA64B /* SubviewOne.m */,
+				36AA1CC21961D611004FA64B /* SubviewTwo.h */,
+				36AA1CC31961D611004FA64B /* SubviewTwo.m */,
+				36AA1CC51961DB35004FA64B /* SubviewThree.h */,
+				36AA1CC61961DB35004FA64B /* SubviewThree.m */,
 				36AA1C9C1961C27B004FA64B /* Images.xcassets */,
 				36AA1C911961C27B004FA64B /* Supporting Files */,
 			);
@@ -240,6 +269,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				36AA1C9B1961C27B004FA64B /* AppDelegate.m in Sources */,
+				36AA1CBE1961C6D2004FA64B /* EmbeddedScrollViewControllerDemo.m in Sources */,
+				36AA1CC71961DB35004FA64B /* SubviewThree.m in Sources */,
+				36AA1CC11961CB26004FA64B /* SubviewOne.m in Sources */,
+				365DE5E0196B0EF6009EF89F /* ScrollContentContainer.m in Sources */,
+				36AA1CC41961D611004FA64B /* SubviewTwo.m in Sources */,
 				36AA1C971961C27B004FA64B /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -437,6 +471,7 @@
 				36AA1CB51961C27C004FA64B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		36AA1CB61961C27C004FA64B /* Build configuration list for PBXNativeTarget "EmbedScrollViewTests" */ = {
 			isa = XCConfigurationList;
@@ -445,6 +480,7 @@
 				36AA1CB81961C27C004FA64B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

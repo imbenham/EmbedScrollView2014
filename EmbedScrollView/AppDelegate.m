@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "EmbeddedScrollViewControllerDemo.h"
 
 @implementation AppDelegate
 
@@ -14,6 +15,10 @@
 {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
+    EmbeddedScrollViewControllerDemo *esvc = [[EmbeddedScrollViewControllerDemo alloc] init];
+    esvc.view.frame = self.window.bounds;
+    UINavigationController *navController = [[UINavigationController alloc] initWithRootViewController:esvc];
+    [self.window setRootViewController:navController];
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
     return YES;
